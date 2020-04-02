@@ -48,6 +48,7 @@ namespace Boodschappen_lijst
                     f1.items.RemoveAt(selectedItemIndex);
                     changeItem = false;
                     LSBItems.Enabled = true;
+                    btDone.Enabled = true;
                 }
                 f1.items.Add(TBProduct.Text + "(" + TBUnit.Text + ")");
             }
@@ -99,6 +100,7 @@ namespace Boodschappen_lijst
                 TBUnit.Text = unit;
                 changeItem = true;
                 LSBItems.Enabled = false;
+                btDone.Enabled = false;
             }
             else
             {
