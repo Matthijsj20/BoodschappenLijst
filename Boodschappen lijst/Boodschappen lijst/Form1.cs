@@ -21,6 +21,25 @@ namespace Boodschappen_lijst
             InitializeComponent();
         }
 
+        private void Boot()
+        {
+            pictureBox1.Visible = false;
+            groupBox1.Visible = true; 
+            label3.Visible = true;
+            label4.Visible = true;
+            label5.Visible = true;
+            label6.Visible = true;
+            TBDestination.Visible = true;
+            TBNotes.Visible = true;
+            TBPassword.Visible = true;
+            TBUsername.Visible = true;
+            CHBRemberPass.Visible = true;
+            BTSendMail.Visible = true;
+            BTDeleteEntireList.Visible = true;
+            button1.Visible = true; // delete 1 item button
+            LW1.Visible = true;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             loadItems();
@@ -353,5 +372,11 @@ namespace Boodschappen_lijst
             displayBoodschappenLijst();
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            //Done loading Fake
+            timer1.Enabled = false;
+            Boot();
+        }
     }
 }
