@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boodschappen lijst", "Boodschappen lijst\Boodschappen lijst.csproj", "{79311062-9D65-455A-86F0-2E3D9E1FAB9D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup Boodschappen Lijst", "Setup Boodschappen Lijst\Setup Boodschappen Lijst.vdproj", "{7C03C393-D799-4410-BD1D-89E49C354055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79311062-9D65-455A-86F0-2E3D9E1FAB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79311062-9D65-455A-86F0-2E3D9E1FAB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79311062-9D65-455A-86F0-2E3D9E1FAB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79311062-9D65-455A-86F0-2E3D9E1FAB9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C03C393-D799-4410-BD1D-89E49C354055}.Debug|Any CPU.ActiveCfg = Debug
+		{7C03C393-D799-4410-BD1D-89E49C354055}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2BC242A-1DBF-4920-B802-D689A70461C8}
+	EndGlobalSection
+EndGlobal
