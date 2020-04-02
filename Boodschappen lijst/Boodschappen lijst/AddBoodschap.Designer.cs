@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddBoodschap));
             this.btDone = new System.Windows.Forms.Button();
             this.LSBItems = new System.Windows.Forms.ListBox();
             this.TBProduct = new System.Windows.Forms.TextBox();
@@ -143,8 +144,9 @@
             this.Controls.Add(this.TBProduct);
             this.Controls.Add(this.LSBItems);
             this.Controls.Add(this.btDone);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddBoodschap";
-            this.Text = "AddBoodschap";
+            this.Text = "Boodschap Beheer";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddBoodschap_FormClosing);
             this.Load += new System.EventHandler(this.AddBoodschap_Load);
             this.ResumeLayout(false);

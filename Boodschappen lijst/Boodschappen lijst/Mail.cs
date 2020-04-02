@@ -10,7 +10,7 @@ namespace Boodschappen_lijst
 {
     class Mail
     {
-        public int Sendmail(string username, string password,string destination, Form1 f1, string notes)
+        public int Sendmail(string username, string password,string destination, Main f1, string notes)
         {
             DateTime thisDay = DateTime.Today.Date;
             string msg = "";

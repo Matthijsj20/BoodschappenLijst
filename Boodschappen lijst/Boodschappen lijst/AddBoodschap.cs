@@ -13,7 +13,7 @@ namespace Boodschappen_lijst
 
     public partial class AddBoodschap : Form
     {
-        public Form1 f1 = new Form1();
+        public Main f1 = new Main();
         bool changeItem = false;
         int selectedItemIndex;
         public AddBoodschap()
