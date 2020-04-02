@@ -58,7 +58,6 @@
             this.LSBItems.Location = new System.Drawing.Point(256, 12);
             this.LSBItems.Name = "LSBItems";
             this.LSBItems.Size = new System.Drawing.Size(468, 329);
-            this.LSBItems.Sorted = true;
             this.LSBItems.TabIndex = 1;
             // 
             // TBProduct

@@ -14,6 +14,8 @@ namespace Boodschappen_lijst
     public partial class AddBoodschap : Form
     {
         public Form1 f1 = new Form1();
+        bool changeItem = false;
+        int selectedItemIndex;
         public AddBoodschap()
         {
             InitializeComponent();
@@ -41,6 +43,12 @@ namespace Boodschappen_lijst
             
             if (string.IsNullOrWhiteSpace(TBProduct.Text) == false || string.IsNullOrWhiteSpace(TBUnit.Text) == false)
             {
+                if(changeItem) // delete item before adding changed version
+                {
+                    f1.items.RemoveAt(selectedItemIndex);
+                    changeItem = false;
+                    LSBItems.Enabled = true;
+                }
                 f1.items.Add(TBProduct.Text + "(" + TBUnit.Text + ")");
             }
             else
@@ -81,7 +89,7 @@ namespace Boodschappen_lijst
         {
             if (LSBItems.SelectedIndex >= 0)
             {
-                int selectedItemIndex = LSBItems.SelectedIndex;
+                selectedItemIndex = LSBItems.SelectedIndex;
                 string selecteditem = f1.items[selectedItemIndex];
                 char[] spearator = { '(' ,')' };
                 String[] strlist = selecteditem.Split(spearator);
@@ -89,8 +97,8 @@ namespace Boodschappen_lijst
                 string unit = strlist[1];
                 TBProduct.Text = productname;
                 TBUnit.Text = unit;
-                string remove = TBProduct + "(" + TBUnit.Text + ")";
-                f1.items.RemoveAt(selectedItemIndex);
+                changeItem = true;
+                LSBItems.Enabled = false;
             }
             else
             {
