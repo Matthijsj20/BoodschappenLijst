@@ -13,9 +13,10 @@ D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\bin\Rele
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\bin\Release\Boodschappen lijst.exe
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\bin\Release\Boodschappen lijst.pdb
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen_lijst.AddBoodschap.resources
-D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen_lijst.Form1.resources
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen_lijst.Properties.Resources.resources
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen lijst.csproj.GenerateResource.cache
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen lijst.csproj.CoreCompileInputs.cache
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen lijst.exe
 D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen lijst.pdb
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen lijst.csprojAssemblyReference.cache
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Release\Boodschappen_lijst.Main.resources

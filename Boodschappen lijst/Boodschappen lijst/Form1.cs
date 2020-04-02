@@ -229,15 +229,33 @@ namespace Boodschappen_lijst
                 lastDate = File.ReadAllText(@"lastDate.txt");
                 DateTime thisDay = DateTime.Today.Date;
                 currentDate = thisDay.ToString("MM/yyyy");
+                int keyCounter = 0;
+                String datekey = thisDay.ToString("dd/MM/yyyy");
+                char[] key = datekey.ToCharArray();
 
-                if(currentDate == lastDate)
+                if (currentDate == lastDate)
                 {
                     try
                     {
                         string username = File.ReadAllText(@"username.txt");
                         string password = File.ReadAllText(@"password.txt");
+                        string decryptedPassword = "";
+
+                        for (int i = 0; i < password.Count(); i++)
+                        {
+                            char temp = Convert.ToChar(password[i] ^ key[keyCounter]);
+                            decryptedPassword += temp;
+                            if (keyCounter >= key.Count() - 1)
+                            {
+                                keyCounter = 0;
+                            }
+                            else
+                            {
+                                keyCounter++;
+                            }
+                        }
                         TBUsername.Text = username;
-                        TBPassword.Text = password;
+                        TBPassword.Text =decryptedPassword;
                         CHBRemberPass.Checked = true;
                     }
                     catch
@@ -334,5 +352,6 @@ namespace Boodschappen_lijst
             boodschappenLijst.Clear();
             displayBoodschappenLijst();
         }
+
     }
 }
