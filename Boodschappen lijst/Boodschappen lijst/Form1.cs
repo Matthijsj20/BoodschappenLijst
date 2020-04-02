@@ -12,11 +12,11 @@ using System.IO;
 
 namespace Boodschappen_lijst
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
         public List<Boodschap> boodschappenLijst = new List<Boodschap>();
         public List<string> items = new List<string>();
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Boodschappen_lijst
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.CBBoodschap = new System.Windows.Forms.ComboBox();
             this.BTAddToList = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -277,7 +278,7 @@
             this.BTDeleteEntireList.UseVisualStyleBackColor = true;
             this.BTDeleteEntireList.Click += new System.EventHandler(this.BTDeleteEntireList_Click);
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -296,7 +297,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.LW1);
             this.Controls.Add(this.groupBox1);
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Main";
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
