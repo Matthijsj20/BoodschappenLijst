@@ -1,0 +1,22 @@
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\bin\Debug\Boodschappen lijst.exe.config
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\bin\Debug\Boodschappen lijst.exe
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\bin\Debug\Boodschappen lijst.pdb
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.csprojAssemblyReference.cache
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen_lijst.Form1.resources
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen_lijst.Properties.Resources.resources
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.csproj.GenerateResource.cache
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.csproj.CoreCompileInputs.cache
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.exe
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.pdb
+D:\Boodschappenlijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen_lijst.AddBoodschap.resources
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\bin\Debug\Boodschappen lijst.exe.config
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\bin\Debug\Boodschappen lijst.exe
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\bin\Debug\Boodschappen lijst.pdb
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.csprojAssemblyReference.cache
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen_lijst.AddBoodschap.resources
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen_lijst.Form1.resources
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen_lijst.Properties.Resources.resources
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.csproj.GenerateResource.cache
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.csproj.CoreCompileInputs.cache
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.exe
+D:\Own_Projects\BoodschappenLijst\Boodschappen lijst\Boodschappen lijst\obj\Debug\Boodschappen lijst.pdb
